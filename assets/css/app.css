@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Teko&display=swap');
+body{
+    background-color:#ffff00;
+}
+.card{
+        box-shadow: 0px 0px 10px 0px #bfa452;
+}
+.card:hover{
+        box-shadow: 0px 0px 20px 0px #52400a;
+}
+.footer-text{
+    position:absolute;
+    bottom: 5px;
+    left: 45%;
+}
+.system-name{
+    font-size: 50px;
+     font-family: 'Teko', sans-serif;
+    
+}
+.label-name{
+    font-size: 30px;
+   font-family: 'Kaushan Script', cursive;
+}
+a h5{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffff00;
+    text-decoration: none;
+}
+.reason-title{
+     font-size: 25px;
+    font-family: 'Teko', sans-serif;
+}
+.thank_1{
+    font-size: 50px;
+   font-family: 'Kaushan Script', cursive;
+}
+.thank_2{
+    font-size: 80px;
+   font-family: 'Teko', sans-serif;
+}

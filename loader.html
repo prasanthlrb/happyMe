@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>HappyMe Happiness Portal</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <img src="./assets/image/uae-logo.png" alt="" srcset="" width="50%">
+            </li>
+        </ul>
+    </nav>
+
+    <img src="./assets/image/loader.gif" alt="" srcset="" loop=infinite width="1100px" height="480px">
+
+    <!-- <img src="./assets/image/loader.gif" alt="" srcset=""> -->
+    <div class="container-fluid">
+        <!-- <h1 class="text-default system-name">Hello Nijo <p class="label-name">How You Feel...</p>
+        </h1> -->
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+
+                <!-- <img src="./assets/image/loader.gif" alt="" srcset="" width="70%" style="position: absolute;right: 0px"> -->
+
+            </div>
+
+            <div class="row">
+                <div class="footer-text">
+
+                    <p><img src="./assets/image/logo.png" alt="" srcset="" width="5%"> HappyMe</p>
+                </div>
+            </div>
+        </div>
+        <!-- You can also require other files to run in this process -->
+        <script src="./assets/js/thanku.js"></script>
+        <script src="./renderer.js"></script>
+</body>
+<script>
+    var app = require('electron').remote;
+    require('./assets/js/thanku.js');
+
+
+</script>
+
+</html>

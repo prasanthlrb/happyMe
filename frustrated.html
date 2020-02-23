@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <title>HappyMe Happiness Portal</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <img src="./assets/image/uae-logo.png" alt="" srcset="" width="50%">
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <!-- <h1 class="text-default system-name">Hello Nijo <p class="label-name">How You Feel...</p>
+        </h1> -->
+
+        <div class="row pt-4">
+
+            <div class="col-md-2 pt-3">
+
+                <div class="card text-center">
+
+                    <div class="card-body">
+                        <h5 class="card-title">سعيدة</h5>
+                    </div>
+                    <img class="card-img-top" src="./assets/image/frustrated.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Frustrated</h5>
+                        <!-- <a href="#" class="btn btn-warning">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" id="mode" value="6">
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <label for="exampleInputEmail1" class="reason-title">Reason for your Happy Mode</label>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="personal" value="personal">
+                                <label class="form-check-label" for="exampleCheck1">Personal</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="work" value="work">
+                                <label class="form-check-label" for="exampleCheck1">Work</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="management" value="management">
+                                <label class="form-check-label" for="exampleCheck1">Management</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="others" value="other">
+                                <label class="form-check-label" for="exampleCheck1">other..</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Details for your Frustrated Mode (option)</label>
+
+                            <textarea name="" id="details" cols="30" class="form-control" rows="6"></textarea>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your Details with
+                                anyone
+                                else.</small>
+                        </div>
+                        <button type="button" class="btn btn-light btn-lg float-left" id="skip_button">Skip this
+                            Option</button>
+                        <button type="button" class="btn btn-warning btn-lg float-right" id="submit_btn">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="footer-text">
+
+                    <p><img src="./assets/image/logo.png" alt="" srcset="" width="5%"> HappyMe</p>
+                </div>
+            </div>
+        </div>
+        <!-- You can also require other files to run in this process -->
+        <!-- <script src="./renderer.js"></script> -->
+        <script src="./assets/js/feedback.js"></script>
+</body>
+<script>
+
+    //require('./assets/js/feedback.js');
+</script>
+
+</html>
